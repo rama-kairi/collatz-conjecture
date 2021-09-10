@@ -1,3 +1,5 @@
+counter = 0
+
 def collatz_conjecture(num):
 	global counter
 	counter+=1
@@ -13,6 +15,12 @@ def collatz_conjecture(num):
 	collatz_conjecture(stored_num)
 
 
-counter = 0
-collatz_conjecture(99)
+
+
+# for i in range(99999999999999999999999999999999999999999999999999999999999, 999999999999999999999999999999999999999999999999999999999999):
+# 	collatz_conjecture(99999999999999999999999999999999999999999999999999999999999)
+# 	print(counter)
+# 	# print(i)
+
+collatz_conjecture(99999999999999999999999999999999999999999999999999999999999)
 print(counter)
